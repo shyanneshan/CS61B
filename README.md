@@ -9,8 +9,8 @@
 - [x] hw0
 
 ## Week2
-- [ ] Project0
-- [ ] Lecture3
+- [ ] Project0  half-done
+- [X] Lecture3
 - [ ] Lecture4
 - [ ] Lecture5
 - [ ] Discussion
