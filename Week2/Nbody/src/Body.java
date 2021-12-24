@@ -85,4 +85,10 @@ public class Body {
 
     }
 
+    public void draw(){
+        StdDraw.picture(xxPos, yyPos, imgFileName);
+        StdDraw.show();
+        StdDraw.pause(100);
+    }
+
 }

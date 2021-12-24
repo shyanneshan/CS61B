@@ -9,7 +9,7 @@
 - [x] hw0
 
 ## Week2
-- [ ] Project0  half-done
+- [X] Project0  a little bug, no buffer
 - [X] Lecture3
 - [ ] Lecture4
 - [ ] Lecture5
