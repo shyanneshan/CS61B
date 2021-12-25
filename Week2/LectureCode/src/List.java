@@ -10,6 +10,13 @@ public class List {
         first = f;
         rest = r;
     }
+
+    public void addFirst(int x){
+        int tmp = first;
+        this.first = x;
+        this.rest = new List(tmp, rest);
+
+    }
     public int size(){
         if (rest == null){
             return 1;
@@ -19,26 +26,22 @@ public class List {
 
     }
     public int itSize(){
-        int len = 1;
-        while(rest!=null){
+        List p = this;
+        int len = 0;
+        while(p!=null){
             len = len + 1;
-            rest = rest.rest;
+            p = p.rest;
         }
         return len;
     }
 
     public int get(int i){
-
-        for(int index = 1; rest!=null; index +=1){
-            if(index == i ){
-                return first;
-            }
-            else{
-                first = rest.first;
-                rest = rest.rest;
-            }
+        if (i == 0){
+            return first;
         }
-        return -1;
+        return rest.get(i - 1);
+
+
     }
 
 

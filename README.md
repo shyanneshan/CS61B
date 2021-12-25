@@ -11,7 +11,11 @@
 ## Week2
 - [X] Project0  a little bug, no buffer
 - [X] Lecture3
-- [ ] Lecture4
+- [X] Lecture4
 - [ ] Lecture5
 - [ ] Discussion
 - [ ] lab2
+
+- [X] hw From L3
+- [X] hw From L4
+- [ ] hw From L5

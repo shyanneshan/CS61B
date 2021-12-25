@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c47c51b-e1de-4c61-afaf-d211abb04592" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/Lecture/src/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nbody/src/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nbody/src/Nbody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nbody/src/TestBodyConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/src/IntNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/src/SLList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/src/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/src/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/src/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/src/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/src/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -147,6 +149,8 @@
       <workItem from="1639927536131" duration="64000" />
       <workItem from="1639992671559" duration="297000" />
       <workItem from="1639993004045" duration="1644000" />
+      <workItem from="1640346685976" duration="1890000" />
+      <workItem from="1640396750972" duration="8454000" />
     </task>
     <servers />
   </component>
@@ -170,30 +174,25 @@
       <screen x="66" y="27" width="1211" height="621" />
     </state>
     <state x="157" y="22" width="1024" height="626" key="#项目结构/66.27.1211.621@66.27.1211.621" timestamp="1639993507605" />
-    <state x="563" y="207" width="376" height="379" key="FileChooserDialogImpl" timestamp="1639993506689">
-      <screen x="66" y="27" width="1211" height="621" />
+    <state x="562" y="393" width="379" height="778" key="FileChooserDialogImpl" timestamp="1640413885979">
+      <screen x="66" y="27" width="1208" height="1270" />
     </state>
+    <state x="562" y="393" width="379" height="778" key="FileChooserDialogImpl/66.27.1208.1270@66.27.1208.1270" timestamp="1640413885979" />
     <state x="563" y="207" width="376" height="379" key="FileChooserDialogImpl/66.27.1211.621@66.27.1211.621" timestamp="1639993506689" />
     <state x="1088" y="406" width="424" height="520" key="FileChooserDialogImpl/66.27.2488.1270@66.27.2488.1270" timestamp="1639927595637" />
-    <state x="157" y="22" width="1024" height="626" key="SettingsEditor" timestamp="1639994045619">
-      <screen x="66" y="27" width="1211" height="621" />
+    <state x="156" y="27" width="1019" height="1255" key="SettingsEditor" timestamp="1640398299114">
+      <screen x="66" y="27" width="1204" height="1255" />
     </state>
+    <state x="156" y="27" width="1019" height="1255" key="SettingsEditor/66.27.1204.1255@66.27.1204.1255" timestamp="1640398299114" />
     <state x="157" y="22" width="1024" height="626" key="SettingsEditor/66.27.1211.621@66.27.1211.621" timestamp="1639994045619" />
-    <state x="333" y="131" width="944" height="482" key="new project wizard" timestamp="1639992690965">
-      <screen x="66" y="27" width="1211" height="621" />
+    <state x="831" y="261" width="944" height="482" key="new project wizard" timestamp="1640346724855">
+      <screen x="66" y="27" width="2488" height="1270" />
     </state>
     <state x="333" y="131" width="944" height="482" key="new project wizard/66.27.1211.621@66.27.1211.621" timestamp="1639992690965" />
-    <state x="831" y="261" width="948" height="803" key="new project wizard/66.27.2488.1270@66.27.2488.1270" timestamp="1639927597586" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Lecture/src/List.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="831" y="261" width="948" height="803" key="new project wizard/66.27.2488.1270@66.27.2488.1270" timestamp="1640346724855" />
+    <state x="331" y="306" width="672" height="678" key="search.everywhere.popup" timestamp="1640347139531">
+      <screen x="66" y="27" width="1204" height="1255" />
+    </state>
+    <state x="331" y="306" width="672" height="678" key="search.everywhere.popup/66.27.1204.1255@66.27.1204.1255" timestamp="1640347139531" />
   </component>
 </project>
