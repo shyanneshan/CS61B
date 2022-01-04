@@ -12,10 +12,18 @@
 - [X] Project0  a little bug, no buffer
 - [X] Lecture3
 - [X] Lecture4
-- [ ] Lecture5
-- [ ] Discussion
-- [ ] lab2
+- [X] Lecture5
+- [X] Discussion
+- [X] lab2
 
 - [X] hw From L3
 - [X] hw From L4
-- [ ] hw From L5
+- [ ] hw From L5  no solution?
+
+## Week3
+- [ ] Lecture6
+- [ ] Lecture7
+- [ ] lab3
+- [ ] discussion1
+- [ ] discussion2
+- [ ] Project1A

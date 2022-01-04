@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c47c51b-e1de-4c61-afaf-d211abb04592" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/Lecture/src/IntNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/src/SLList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AList/AList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AList/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Week2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Week2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/src/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/src/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/src/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/src/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/src/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture5.md" beforeDir="false" afterPath="$PROJECT_DIR$/lecture5.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -61,7 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -74,13 +78,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,6 +157,7 @@
       <workItem from="1639993004045" duration="1644000" />
       <workItem from="1640346685976" duration="1890000" />
       <workItem from="1640396750972" duration="8454000" />
+      <workItem from="1640516810607" duration="3998000" />
     </task>
     <servers />
   </component>
@@ -170,6 +177,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="768" y="320" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640516908544">
+      <screen x="66" y="27" width="2488" height="1270" />
+    </state>
+    <state x="768" y="320" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/66.27.2488.1270@66.27.2488.1270" timestamp="1640516908544" />
     <state x="157" y="22" width="1024" height="626" key="#项目结构" timestamp="1639993507605">
       <screen x="66" y="27" width="1211" height="621" />
     </state>
@@ -180,11 +191,12 @@
     <state x="562" y="393" width="379" height="778" key="FileChooserDialogImpl/66.27.1208.1270@66.27.1208.1270" timestamp="1640413885979" />
     <state x="563" y="207" width="376" height="379" key="FileChooserDialogImpl/66.27.1211.621@66.27.1211.621" timestamp="1639993506689" />
     <state x="1088" y="406" width="424" height="520" key="FileChooserDialogImpl/66.27.2488.1270@66.27.2488.1270" timestamp="1639927595637" />
-    <state x="156" y="27" width="1019" height="1255" key="SettingsEditor" timestamp="1640398299114">
-      <screen x="66" y="27" width="1204" height="1255" />
+    <state x="156" y="27" width="1019" height="1255" key="SettingsEditor" timestamp="1640520216262">
+      <screen x="66" y="27" width="2488" height="1270" />
     </state>
     <state x="156" y="27" width="1019" height="1255" key="SettingsEditor/66.27.1204.1255@66.27.1204.1255" timestamp="1640398299114" />
     <state x="157" y="22" width="1024" height="626" key="SettingsEditor/66.27.1211.621@66.27.1211.621" timestamp="1639994045619" />
+    <state x="156" y="27" key="SettingsEditor/66.27.2488.1270@66.27.2488.1270" timestamp="1640520216262" />
     <state x="831" y="261" width="944" height="482" key="new project wizard" timestamp="1640346724855">
       <screen x="66" y="27" width="2488" height="1270" />
     </state>
