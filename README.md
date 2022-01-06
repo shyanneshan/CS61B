@@ -21,9 +21,9 @@
 - [ ] hw From L5  no solution?
 
 ## Week3
-- [ ] Lecture6
-- [ ] Lecture7
+- [X] Lecture6
+- [X] Lecture7
 - [ ] lab3
-- [ ] discussion1
-- [ ] discussion2
+- [X] discussion3 **reverse needs review**
+- [ ] discussion4
 - [ ] Project1A

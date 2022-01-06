@@ -94,4 +94,81 @@ public class SLList {
         }
     }
 
+    public void insert(int x, int position){
+        // my solution
+
+        IntNode cur = sentinel;
+        IntNode next = cur.next;
+        int count = 0;
+        if(cur == null){
+            addFirst(x);
+            return;
+        }
+
+        while(count < position){
+            if (next == null){
+                cur.next = new IntNode(x, null);break;
+            }
+            count += 1;
+            cur = cur.next;
+            next = next.next;
+        }
+        cur.next = new IntNode(x, next);
+        size += 1;
+
+        // standard solution
+        if (sentinel.next == null || position == 0){
+            addFirst(x);
+        }
+        IntNode current = sentinel.next;
+        while(position > 1 && current.next!=null){
+            position--;
+            current = current.next;
+        }
+        current.next = new IntNode(x, current.next);
+
+    }
+    // no use new
+    public void reverseIterative(){
+        if (sentinel.next == null || sentinel.next.next == null){
+            return;
+        }
+
+        IntNode cur = sentinel.next;
+        for(int index = 1; index < size; index += 1){
+            int steps = size - index;
+            deleteFirst();
+            insert(cur.item, steps);
+            cur = sentinel.next;
+        }
+    }
+
+    // recursively remove item
+    public void removeItem(int x){
+        removeItemHelper(x, sentinel);
+    }
+
+    private IntNode removeItemHelper(int x, IntNode current){
+        // my solution
+        if(current == null) {
+            return null;
+        }
+        IntNode realCur = current.next;
+        if (realCur.item == x){
+            current.next = realCur.next;
+            size = size - 1;
+        }
+        return removeItemHelper(x, current.next);
+
+        /* standard solution
+        if(current == null) {
+            return null;
+        }else if (current.item == x){
+            return removeItemHelper(x, current.next);
+        }else{
+            current.next = removeItemHelper(x,current.next);
+            return current;
+        }
+        */
+    }
 }
