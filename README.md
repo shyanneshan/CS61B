@@ -23,7 +23,8 @@
 ## Week3
 - [X] Lecture6
 - [X] Lecture7
-- [ ] lab3 **halfdone**
+- [X] lab3 
 - [X] discussion3 Week2/LectureCode/src/SLList.java **reverse needs review**
 - [X] discussion4
 - [ ] Project1A
+3 functions left
