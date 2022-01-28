@@ -26,5 +26,16 @@
 - [X] lab3 
 - [X] discussion3 Week2/LectureCode/src/SLList.java **reverse needs review**
 - [X] discussion4
-- [ ] Project1A
-3 functions left
+- [ ] Project1A arrayDeque?????
+
+## Week4
+- [ ] Lecture8
+- [ ] Lecture9
+- [ ] Lecture10
+- [ ] lab4 peer review
+- [ ] discussion5
+- [ ] discussion6
+- [X] Project 1B
+- [ ] Project 1 Gold
+
+problems: style checker?
